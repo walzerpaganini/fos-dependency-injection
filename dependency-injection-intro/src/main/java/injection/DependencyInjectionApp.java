@@ -44,7 +44,7 @@ public class DependencyInjectionApp {
 		 * 
 		 * Alcuni dispositivi possono ricevere messaggi via Wi-Fi, comunicando con protocollo HTTP,
 		 * mentre altri sono collegati al computer con un cavo USB: in altre parole, per comunicare con
-		 * ciascun dispositivo in maniera diversa.
+		 * ciascun dispositivo è necessario adottare una strategia diversa.
 		 * 
 		 * Grazie a Spring, non abbiamo bisogno di creare e configurare manualmente gli oggetti necessari
 		 * a comunicare con le macchine (es. decidendo se devono comunicare tramite HTTP o USB): scrivendo
